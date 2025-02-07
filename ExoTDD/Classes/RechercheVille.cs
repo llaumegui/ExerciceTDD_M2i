@@ -14,6 +14,6 @@ public class RechercheVille {
         if (mot.Length < 2)
             throw new NotFoundException();
         
-        return _villes.Where(v => v.StartsWith(mot,StringComparison.CurrentCultureIgnoreCase)).ToList();
+        return _villes.Where(v => v.Contains(mot,StringComparison.CurrentCultureIgnoreCase)).ToList();
     }
 }
