@@ -9,8 +9,8 @@ public class TestRechercheVille
     private List<String> _villes;
     private RechercheVille _rechercheVille;
 
-    [SetUp]
-    public void TestInitialize()
+    [OneTimeSetUp]
+    public void TestSetup()
     {
         // simulate a db pull
         _villes = new List<String>()
@@ -32,7 +32,20 @@ public class TestRechercheVille
             "Rome",
             "Istanbul"
         };
-        
+
         _rechercheVille = new RechercheVille(_villes);
+    }
+
+    [TestCase("I")]
+    public void TestRechercher_ExceptionWhenLessThan2Characters(string word)
+    {
+        Assert.Throws<NotFoundException>(() => _rechercheVille.Rechercher(word));
+    }
+
+    [OneTimeTearDown]
+    public void TestTeardown()
+    {
+        _rechercheVille = null!;
+        _villes = null!;
     }
 }
