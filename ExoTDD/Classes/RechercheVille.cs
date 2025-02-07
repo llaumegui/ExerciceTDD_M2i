@@ -2,20 +2,18 @@ namespace ExoTDD.Classes;
 
 public class RechercheVille {
     
-    private List<String> _villes;
+    private List<string> _villes;
 
-    public RechercheVille(List<String> villes)
+    public RechercheVille(List<string> villes)
     {
         _villes = villes;
     }
    
-    public List<String> Rechercher(String mot)
+    public List<string> Rechercher(string mot)
     {
         if (mot.Length < 2)
             throw new NotFoundException();
         
         return _villes.Where(v => v.StartsWith(mot)).ToList();
-
-        throw new NotImplementedException();
     }
 }
