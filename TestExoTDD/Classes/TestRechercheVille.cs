@@ -53,7 +53,7 @@ public class TestRechercheVille
     }
 
     [TestCase("va")]
-    public void TestRechercher_IsCaseSensitive(string letters)
+    public void TestRechercher_IsNotCaseSensitive(string letters)
     {
         List<string> result = _rechercheVille.Rechercher(letters);
         List<string> expected = _villes
