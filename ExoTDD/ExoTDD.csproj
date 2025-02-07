@@ -6,12 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\ExoTDD\ExoTDD.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="NUnit" Version="4.3.2" />
-    </ItemGroup>
-
 </Project>

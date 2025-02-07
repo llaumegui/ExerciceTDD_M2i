@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\TestExoTDD\\TestExoTDD.csproj": {}
+    "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\TestExoTDD\\TestExoTDD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD\\ExoTDD.csproj": {
+    "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD\\ExoTDD.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD.csproj",
         "projectName": "ExoTDD",
-        "projectPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD\\ExoTDD.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,12 +42,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "MSTest": {
-              "target": "Package",
-              "version": "[3.7.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -68,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\TestExoTDD\\TestExoTDD.csproj": {
+    "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\TestExoTDD\\TestExoTDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\TestExoTDD\\TestExoTDD.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\TestExoTDD\\TestExoTDD.csproj",
         "projectName": "TestExoTDD",
-        "projectPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\TestExoTDD\\TestExoTDD.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\TestExoTDD\\TestExoTDD.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\TestExoTDD\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\TestExoTDD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -90,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD\\ExoTDD.csproj": {
-                "projectPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD\\ExoTDD.csproj"
+              "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD.csproj": {
+                "projectPath": "C:\\Users\\Administrateur\\Desktop\\DEV\\10-TDD\\ExoTDD03\\ExoTDD\\ExoTDD.csproj"
               }
             }
           }
@@ -111,9 +105,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MSTest": {
+            "NUnit": {
               "target": "Package",
-              "version": "[3.7.3, )"
+              "version": "[4.3.2, )"
             }
           },
           "imports": [
