@@ -62,6 +62,14 @@ public class TestRechercheVille
         CollectionAssert.AreEqual(expected, result);
     }
 
+    [TestCase("ape")]
+    public void TestRechercher_ContainLetters(string letters)
+    {
+        List<string> result = _rechercheVille.Rechercher(letters);
+        List<string> expected = _villes.Where(v => v.Contains(letters)).ToList();
+        CollectionAssert.AreEqual(expected, result);
+    }
+
     [OneTimeTearDown]
     public void TestTeardown()
     {
