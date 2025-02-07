@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoTDD", "ExoTDD\ExoTDD.csproj", "{535FF1A6-25F2-40B4-8329-209669C44B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExoTDD", "TestExoTDD\TestExoTDD.csproj", "{BBDF68B5-F191-47FF-8DCF-F637CCB6ACA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535FF1A6-25F2-40B4-8329-209669C44B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535FF1A6-25F2-40B4-8329-209669C44B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535FF1A6-25F2-40B4-8329-209669C44B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535FF1A6-25F2-40B4-8329-209669C44B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDF68B5-F191-47FF-8DCF-F637CCB6ACA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDF68B5-F191-47FF-8DCF-F637CCB6ACA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDF68B5-F191-47FF-8DCF-F637CCB6ACA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDF68B5-F191-47FF-8DCF-F637CCB6ACA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
