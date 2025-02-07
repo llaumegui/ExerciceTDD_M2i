@@ -70,6 +70,14 @@ public class TestRechercheVille
         CollectionAssert.AreEqual(expected, result);
     }
 
+    [TestCase("*")]
+    public void TestRechercher_ReturnsEveryElements(string letters)
+    {
+        List<string> result = _rechercheVille.Rechercher(letters);
+        List<string> expected = _villes.ToList();
+        CollectionAssert.AreEqual(expected, result);
+    }
+
     [OneTimeTearDown]
     public void TestTeardown()
     {
