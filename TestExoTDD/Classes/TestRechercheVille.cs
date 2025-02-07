@@ -1,5 +1,6 @@
 using ExoTDD.Classes;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
 
 namespace TestExoTDD.Classes;
 
@@ -40,6 +41,15 @@ public class TestRechercheVille
     public void TestRechercher_ExceptionWhenLessThan2Characters(string word)
     {
         Assert.Throws<NotFoundException>(() => _rechercheVille.Rechercher(word));
+    }
+
+    [TestCase("Va")]
+    public void TestRechercher_StartWithLetters(string letters)
+    {
+        List<string> result = _rechercheVille.Rechercher(letters);
+        List<string> expected = _villes.Where(v => v.StartsWith(letters)).ToList();
+        
+        CollectionAssert.AreEqual(expected, result);
     }
 
     [OneTimeTearDown]

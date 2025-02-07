@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ab371a4a_002D1fca_002D4db3_002D9baf_002De022a76c2b7f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestRechercher_ExceptionWhenLessThan2Characters" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::BBDF68B5-F191-47FF-8DCF-F637CCB6ACA3::net8.0::TestExoTDD.Classes.TestRechercheVille.TestRechercher_ExceptionWhenLessThan2Characters&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::BBDF68B5-F191-47FF-8DCF-F637CCB6ACA3::net8.0::TestExoTDD.Classes.TestRechercheVille.TestRechercher_&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
