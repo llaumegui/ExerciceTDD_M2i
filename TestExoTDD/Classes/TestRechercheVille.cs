@@ -52,6 +52,16 @@ public class TestRechercheVille
         CollectionAssert.AreEqual(expected, result);
     }
 
+    [TestCase("va")]
+    public void TestRechercher_IsCaseSensitive(string letters)
+    {
+        List<string> result = _rechercheVille.Rechercher(letters);
+        List<string> expected = _villes
+            .Where(v => v.StartsWith(letters,StringComparison.CurrentCultureIgnoreCase))
+            .ToList();
+        CollectionAssert.AreEqual(expected, result);
+    }
+
     [OneTimeTearDown]
     public void TestTeardown()
     {
